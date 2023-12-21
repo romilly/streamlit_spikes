@@ -28,7 +28,11 @@ class SQLiteChatRecorder(AbstractChatRecorder):
         self.conn.commit()
 
     def __del__(self):
-        self.close()
+        try:
+            self.close()
+        except:
+            pass
+            # what else can I do?
 
     def close(self):
         if self.conn is not None:

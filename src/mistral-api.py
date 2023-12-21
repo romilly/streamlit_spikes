@@ -15,7 +15,7 @@ load_dotenv()
 api_key = os.environ["MISTRAL_API_KEY"]
 model = "mistral-small"
 client = MistralClient(api_key=api_key)
-recorder = SQLiteChatRecorder('chats.db')
+recorder = SQLiteChatRecorder('/home/romilly/git/active/streamlit_spikes/data/chats.db')
 st.title("Conversation with Mistralx Model")
 
 if prompt := st.chat_input():
