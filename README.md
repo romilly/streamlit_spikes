@@ -14,7 +14,7 @@ The OpenAI app maintains a chat history.
 The two mistral apps are one-shot apps at present; in other words, they don't maintain a history of the chat.
 Each prompt starts a new chat session.
 
-`mistreal-api.py` sends your prompt to the `mistral-tiny`model and displays the result.
+`mistral-api.py` sends your prompt to the `mistral-tiny`model and displays the result.
 
 `multi-mistral` send your prompt to `mistral-tiny`, `mistral-small` and `1mistral-medium`.
 It displays your prompt and each model's response to it.
