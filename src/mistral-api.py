@@ -29,4 +29,4 @@ if prompt := st.chat_input():
     ).choices[0].message.content
     st.chat_message("assistant").write(response)
 
-    recorder.add_record('localhost', {'user_input': prompt, 'response': response})
+    recorder.add_record('localhost', {'model': 'mistral-small', 'user_input': prompt, 'response': response})
