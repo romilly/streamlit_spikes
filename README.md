@@ -11,7 +11,7 @@ The `mistral-api.py` and m̀ulti-mistral.py`projects are inspired by the OpenAI 
 
 The OpenAI app maintains a chat history.
 
-The two mistral apps are one-shot apps at present; in other words, they don't maintain a history of the chat.
+The two Mistral apps are one-shot apps at present; in other words, they don't maintain a history of the chat.
 Each prompt starts a new chat session.
 
 `mistral-api.py` sends your prompt to the `mistral-tiny`model and displays the result.
