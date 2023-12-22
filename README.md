@@ -1,4 +1,5 @@
-# Run remote LLMs from stremalit using the web API from OPenAI and/or Mistral.
+# Run remote LLMs from streamlit 
+using the web API from OPenAI and/or Mistral.
 
 Experiments with [Streamlit](https://streamlit.io/)
 
